@@ -45,3 +45,11 @@ const createMemberCard = (member) => {
         <div id="picture" class="col-4 p-0">
             <img src="./${member.img}" class="img-fluid">
         </div>
+          <div id="info" class="col-8" >
+                            <h4 id="name">${member.name}</h4>
+                            <div id="role">${member.role}</div>
+                            <div id="email" class="text-primary">${member.email}</div>
+                        </div>
+                    </div>
+                </div>`;
+
