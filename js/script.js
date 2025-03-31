@@ -53,3 +53,7 @@ const createMemberCard = (member) => {
                     </div>
                 </div>`;
 
+document.getElementById("members").innerHTML += card;
+};
+            
+
